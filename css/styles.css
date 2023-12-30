@@ -486,12 +486,14 @@ img {
 
 /*footer*/
 .footer-container {
+  padding: 100px 0;
+  background-color: #2e2f42;
+  width: 1440px;
+  padding-left: 156px;
+}
+.footer-container {
   display: flex;
   align-items: baseline;
-  background-color: #2e2f42;
-  width: 1440;
-  /*flex-direction: column;
-  padding: 100px 0;*/
 }
 .container-footer {
   /*display: flex;
@@ -559,7 +561,6 @@ img {
 .f-smedia-items {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fmedia-link {
   display: flex;
@@ -571,6 +572,7 @@ img {
   background-color: #4d5ae5;
   fill: currentColor;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fmedia-link:hover,
 .fmedia-link:focus {
