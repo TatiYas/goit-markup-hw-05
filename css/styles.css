@@ -681,8 +681,17 @@ img {
 
   color: #2e2f42;
 }
-.modal-btn-icon {
-  stroke: currentColor;
+.modal-btn:focus,
+.modal-btn:hover {
+  background-color: #4d5ae5;
+  transition: color 250ms ease-in-out background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn-icon:focus {
+  color: #ffffff;
+  transition: color 250ms ease-in-out background-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-caption {
   color: #2e2f42;
@@ -811,7 +820,7 @@ img {
 }
 
 .form-accept-link {
-  color: #4d5ae5;
+  color: #404bbf;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
