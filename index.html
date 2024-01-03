@@ -615,6 +615,7 @@
           <form class="subscribe-form" name="subscribe">
             <label class="subscribe-form-fild">
               <input
+                name="email"
                 class="subscribe-form-input"
                 type="email"
                 placeholder="E-mail"
@@ -650,12 +651,12 @@
 
         <form class="modal-form form" name="reviews">
           <div class="modal-form-main">
-            <label class="form-label" for="Name">Name</label>
+            <label class="form-label" for="user-name">Name</label>
             <div class="form-field">
               <input
                 class="form-input"
-                id="Name"
-                name="Name"
+                id="user-name"
+                name="user-name"
                 type="text"
                 minlength="4"
               />
@@ -698,7 +699,7 @@
           </div>
 
           <div class="form-wrapper">
-            <label for="user_comment" class="user_comment-form">Comment</label>
+            <label for="user-comment" class="user_comment-form">Comment</label>
             <textarea
               class="user_comment"
               name="user_comment"
@@ -708,22 +709,26 @@
             ></textarea>
           </div>
 
-          <label class="form-accept">
+          <div class="container-checkbox">
             <input
               class="accept-input-checkbox visually-hidden"
+              id="user-privacy"
               type="checkbox"
-              name="user-accept"
-              value="false"
+              name="user-privacy"
+              value="true"
               checked
             />
-            <span class="accept-form-checkbox">
-              <svg class="accept-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-Vector"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a class="form-accept-link" href="">Privacy Policy</a>
-          </label>
+            <label for="user-privacy" class="user-privacy">
+              <span class="accept-form-checkbox">
+                <svg class="accept-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-accept-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+
           <button class="accept-button" type="submit">Send</button>
         </form>
       </div>
