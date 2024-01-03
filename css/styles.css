@@ -858,19 +858,18 @@ img {
   cursor: pointer;
   fill: transparent;
 }
-.user-privacy:checked + .user-privacy-checkbox {
-  background-color: #404bbf;
-  border: none;
-}
-
 .accept-icon {
   opacity: 0;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.user-privacy:checked + .user-privacy-checkbox > .accept-icon {
-  opacity: 1;
+.input-checkbox:checked + .user-accept-form {
+  background-color: #404bbf;
   fill: #f4f4fd;
+  border: none;
+}
+
+.input-checkbox:checked + .user-accept-form > .accept-icon {
+  opacity: 1;
 }
 /*. {
   margin-left: 8px;
