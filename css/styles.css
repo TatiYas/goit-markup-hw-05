@@ -858,7 +858,7 @@ img {
   cursor: pointer;
   fill: transparent;
 }
-.user-privacy-checkbox:checked + .accept-form-checkbox {
+.user-privacy-checkbox:checked + .user-privacy {
   background-color: #404bbf;
   border: none;
 }
@@ -867,7 +867,7 @@ img {
   opacity: 0;
 }
 
-.user-privacy-checkbox:checked + .accept-form-checkbox > .accept-icon {
+.user-privacy-checkbox:checked + .user-privacy > .accept-icon {
   opacity: 1;
   fill: #f4f4fd;
 }
