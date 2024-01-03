@@ -828,7 +828,7 @@ img {
 .container-checkbox {
   margin-bottom: 24px;
 }
-.user-privacy {
+.user-accept-form {
   display: flex;
 
   color: #8e8f99;
@@ -858,7 +858,7 @@ img {
   cursor: pointer;
   fill: transparent;
 }
-.user-privacy-checkbox:checked + .user-privacy {
+.user-privacy:checked + .user-privacy-checkbox {
   background-color: #404bbf;
   border: none;
 }
@@ -868,7 +868,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-privacy-checkbox:checked + .user-privacy > .accept-icon {
+.user-privacy:checked + .user-privacy-checkbox > .accept-icon {
   opacity: 1;
   fill: #f4f4fd;
 }
