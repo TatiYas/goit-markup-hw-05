@@ -691,7 +691,7 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-
+  border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -700,7 +700,6 @@ img {
   border-radius: 50%;
   outline: transparent;
   background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -827,7 +826,7 @@ img {
 .checkbox-container {
   margin-bottom: 24px;
 }
-.user-accept-form {
+.user-privacy {
   display: block;
   margin-bottom: 24px;
 
@@ -861,11 +860,11 @@ img {
   opacity: 0;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-checkbox:checked + .user-accept-form > .user-privacy-checkbox {
+.input-checkbox:checked + .user-privacy > .user-privacy-checkbox {
   border: none;
   background-color: #404bbf;
 }
-.input-checkbox:checked + .user-accept-form > .accept-icon {
+.input-checkbox:checked + .user-privacy > .accept-icon {
   opacity: 1;
   fill: #f4f4fd;
 }
