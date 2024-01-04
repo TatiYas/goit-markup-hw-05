@@ -642,6 +642,22 @@ img {
 }
 
 /* Modal window  30.12.23*/
+
+.modal-caption {
+  color: #2e2f42;
+  text-align: center;
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 360;
+  padding-top: 72px;
+  /*padding-bottom: 16px;*/
+  /*margin-bottom: 16px;*/
+}
 .backdrop {
   position: fixed;
   top: 0;
@@ -719,22 +735,6 @@ img {
 }
 .modal-btn-icon:focus {
   color: #ffffff;
-}
-
-.modal-caption {
-  color: #2e2f42;
-  text-align: center;
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  width: 360;
-  padding-top: 72px;
-  padding-bottom: 16px;
-  margin-bottom: 16px;
 }
 
 .modal-form-main {
