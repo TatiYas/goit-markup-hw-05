@@ -862,7 +862,7 @@ img {
 }
 .input-checkbox:checked + .user-privacy-label > .user-privacy-checkbox {
   border: none;
-  fill: #f4fffd;
+  fill: #f4f4fd;
   background-color: #404bbf;
 }
 .input-checkbox:checked
