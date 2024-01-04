@@ -691,7 +691,7 @@ img {
   position: absolute; /*relative;*/
   top: 50%;
   left: 50%;
-  margin-bottom: 8px;
+  /*margin-bottom: 8px;*/
   width: 408px;
   min-height: 584px;
   padding: 24px;
