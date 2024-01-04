@@ -704,7 +704,7 @@ img {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: #2e2f42;
+  /*border-color: #2e2f42;*/
 }
 .modal-btn:focus,
 .modal-btn:hover {
@@ -770,7 +770,7 @@ img {
   border-color: #4d5ae5;
 }
 .modal-form-main {
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 
 .form-icon {
@@ -791,10 +791,10 @@ img {
 .form-wrapper {
   margin-bottom: 16px;
 }
-.user-comment-form {
+.user-comment {
   padding-bottom: 4px;
 }
-.user-comment {
+.user-comment-form {
   width: 100%;
   resize: vertical;
   min-height: 120px;
@@ -809,18 +809,17 @@ img {
   line-height: 1.17;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2;
   letter-spacing: 0.04em;
   color: #2e2f4266;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-comment::placeholder {
+.user-comment-form::placeholder {
   color: currentColor;
   transition: border-color 250ms;
 }
 
-.user-comment:focus {
+.user-comment-form:focus {
   border-color: #4d5ae5;
   margin-bottom: 24px;
 }
@@ -864,6 +863,7 @@ img {
 .input-checkbox:checked + .user-privacy-label > .user-privacy-checkbox {
   border: none;
   background-color: #404bbf;
+  fill: #f4f4fd;
 }
 .input-checkbox:checked
   + .user-privacy-label
@@ -917,8 +917,7 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   text-align: center;
-
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  /*border: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
 /*властивість приховує елемент на сторінці*/
