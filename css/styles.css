@@ -821,7 +821,7 @@ img {
 
 .user-comment-form:focus {
   border-color: #4d5ae5;
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;*/
 }
 .checkbox-container {
   margin-bottom: 24px;
